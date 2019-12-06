@@ -7,9 +7,9 @@ app.config['SECRET_KEY'] = 'vnkdjnfjknfl1232#'
 socketio = SocketIO(app)
 
 
-@app.route('/')
-def sessions():
-    return render_template('session.html')
+# @app.route('/')
+# def sessions():
+#     return render_template('session.html')
 
 
 def messageReceived(methods=['GET', 'POST']):
